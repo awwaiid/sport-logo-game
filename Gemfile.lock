@@ -1,0 +1,103 @@
+GIT
+  remote: https://github.com/fkchang/opal-hot-reloader.git
+  revision: 03af9ab0e1ea42085414a0f11ebd136e7361266d
+  specs:
+    opal_hot_reloader (0.1.0)
+      listen (~> 3.0)
+      websocket
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (8.2.5)
+    coderay (1.1.1)
+    concurrent-ruby (1.0.2)
+    diff-lcs (1.2.5)
+    ffi (1.9.10)
+    hike (1.2.3)
+    listen (3.1.4)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
+    method_source (0.8.2)
+    mini_portile2 (2.0.0)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
+    opal (0.8.0)
+      hike (~> 1.2)
+      sourcemap (~> 0.1.0)
+      sprockets (~> 3.1)
+      tilt (>= 1.4)
+    opal-activesupport (0.3.0)
+      opal (>= 0.5.0, < 1.0.0)
+    opal-browser (0.2.0)
+      opal
+      paggio
+    opal-jquery (0.4.1)
+      opal (>= 0.7.0, < 0.10.0)
+    opal-rspec (0.5.0)
+      opal (>= 0.8.0, < 0.10)
+    paggio (0.2.6)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.3.0)
+      byebug (~> 8.0)
+      pry (~> 0.10)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rb-fsevent (0.9.7)
+    rb-inotify (0.9.7)
+      ffi (>= 0.5.0)
+    reactive-ruby (0.7.40)
+      opal (= 0.8.0)
+      opal-activesupport (>= 0.2.0)
+      opal-browser (= 0.2.0)
+    rerun (0.11.0)
+      listen (~> 3.0)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.4)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
+    ruby_dep (1.3.1)
+    sass (3.4.22)
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    slop (3.6.0)
+    sourcemap (0.1.1)
+    sprockets (3.6.0)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    tilt (2.0.3)
+    websocket (1.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nokogiri
+  opal-jquery
+  opal-rspec
+  opal_hot_reloader!
+  pry-byebug
+  reactive-ruby (= 0.7.40)
+  rerun
+  rspec
+  sass
+  sinatra
+
+BUNDLED WITH
+   1.12.3
